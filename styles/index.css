@@ -1,0 +1,41 @@
+#result {
+    height: 75px;
+    font-size:xx-large;
+    border: none;
+}
+
+div.calculator {
+    width: auto;
+    align-items: center;
+}
+
+input.button {
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    font-size: x-large;
+    transition: border-radius 0.2s ease 0.1s;
+}
+
+input.btn_number {
+    background-color: Snow;
+}
+
+input.btn_AC {
+    background-color: #c8e6c9;
+}
+
+input.btn_operation {
+    background-color: #b2ebf2;
+}
+
+input.btn_calculate {
+    background-color: #80cbc4;
+}
+
+input.button:active {
+    border-radius: 15px;
+    filter: brightness(0.9);
+}
